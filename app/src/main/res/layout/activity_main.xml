@@ -13,15 +13,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello EEM!"
-        android:id="@+id/textView"/>
+        android:text="Hello World!"
+        android:id="@+id/textView" />
 
     <Button
-        android:text="Button"
+        android:text="commitButton Lakkes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="184dp"
-        android:id="@+id/button"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/button" />
 </RelativeLayout>
